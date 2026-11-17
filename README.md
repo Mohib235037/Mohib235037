@@ -18,7 +18,7 @@
 
 I'm **Muhammad Mohib**, a **7th-semester Cyber Security student** with hands-on academic and CTF experience. I'm interested in penetration testing, ethical hacking, digital forensics, cryptography, and building practical security tools.
 
-- **Current work:** a cryptography solver, digital forensic utilities, and an **EEG-based Stress Detection & IoMT Security** final-year project.
+- **Current work:** digital forensic utilities and an **EEG-based Stress Detection & IoMT Security** final-year project.
 - **CTF practice:** challenges in cryptography, steganography, forensics, and web security.
 - **Career objective:** grow into a cybersecurity role where I can investigate threats, assess vulnerabilities responsibly, and develop tools that support security teams.
 - **Looking ahead:** internships, early-career opportunities, and collaboration on security projects and CTF learning.
@@ -71,8 +71,14 @@ I'm also exploring **reverse engineering** and **binary exploitation**, while de
 
 ## Featured projects
 
-- **Cryptography solver & forensic utilities** · In development<br>
-  Developing tools for cryptography and digital forensic work.
+- **[GhostCipher](https://github.com/Mohib235037/GhostCipher)** · First completed and published cybersecurity project<br>
+  An offline Windows desktop workbench for CTF cryptography. It decodes layered encodings and shows each transformation, supports classical ciphers, XOR, hash comparison and RSA exercises, and verifies AES-GCM tags before returning plaintext.<br>
+  <img src="https://img.shields.io/badge/Python-3.12-23354D?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python 3.12">
+  <img src="https://img.shields.io/badge/PySide6-23354D?style=flat-square" alt="PySide6">
+  <img src="https://img.shields.io/badge/PyCryptodome-164E4A?style=flat-square" alt="PyCryptodome">
+  <img src="https://img.shields.io/badge/SymPy-164E4A?style=flat-square" alt="SymPy">
+- **Digital forensic utilities** · In development<br>
+  Developing utilities for digital forensic work.
 - **EEG-based Stress Detection & IoMT Security** · In progress<br>
   My final-year project on stress detection and IoMT security.
 - **[Sentin-AI](https://github.com/Mohib235037/Sentin-AI)** · Repository created<br>
