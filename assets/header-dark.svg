@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="344" viewBox="0 0 1280 344" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Mohib — Cyber Security student</title>
+  <desc id="desc">7th-semester student interested in penetration testing, digital forensics, cryptography, and security tool development. Animated introduction: learning to investigate, test and build.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 H 0 V 36" fill="none" stroke="#172b43" stroke-width="1"/></pattern>
+    <linearGradient id="fade"><stop stop-color="#2dd4bf" stop-opacity=".13"/><stop offset="1" stop-color="#2dd4bf" stop-opacity=".02"/></linearGradient>
+    <clipPath id="round"><rect x="1" y="1" width="1278" height="342" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .intro { animation: reveal 2.4s steps(42,end) .35s both; }
+    .cursor { animation: blink 1.2s step-end infinite; }
+    @keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .intro, .cursor { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="1278" height="342" rx="22" fill="#0b1424" stroke="#22334b"/>
+  <g clip-path="url(#round)"><rect x="844" y="1" width="435" height="342" fill="url(#grid)"/><path d="M900 1 H1280 V344 H730 Z" fill="url(#fade)"/></g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <rect x="56" y="45" width="7" height="7" rx="2" fill="#2dd4bf"/>
+    <text x="77" y="53" font-size="13" font-weight="700" letter-spacing="3" fill="#2dd4bf">CYBER SECURITY / PORTFOLIO</text>
+    <text x="53" y="137" font-size="58" font-weight="750" letter-spacing="-2" fill="#f1f5f9">Muhammad Mohib</text>
+    <text x="56" y="178" font-size="23" fill="#a3b4c9">7th-semester Cyber Security student</text>
+    <text x="56" y="213" font-size="15" font-weight="600" letter-spacing="1.3" fill="#a3b4c9">PENETRATION TESTING · FORENSICS · SECURITY TOOLS</text>
+    <rect x="56" y="247" width="680" height="51" rx="10" fill="#111f33" stroke="#22334b"/>
+    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" fill="#2dd4bf">
+      <text x="76" y="279">&gt;</text>
+      <g class="intro"><text x="101" y="279">learning to investigate, test &amp; build</text></g>
+      <rect class="cursor" x="490" y="264" width="9" height="18" rx="1"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#2dd4bf" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="1059" cy="164" r="117" opacity=".12"/>
+    <circle cx="1059" cy="164" r="97" stroke-dasharray="3 10" opacity=".3"/>
+    <path d="M1059 77 L1130 105 V163 C1130 210 1098 240 1059 258 C1020 240 988 210 988 163 V105 Z" fill="#0b1424" stroke-width="2.5"/>
+    <path d="M1059 95 L1113 116 V163 C1113 198 1089 223 1059 239 C1029 223 1005 198 1005 163 V116 Z" fill="url(#fade)" opacity=".65"/>
+    <path d="M1033 160 V147 A26 26 0 0 1 1085 147 V160" stroke-width="3"/>
+    <rect x="1024" y="160" width="70" height="49" rx="9" stroke-width="3"/>
+    <circle cx="1059" cy="181" r="4" fill="#2dd4bf" stroke="none"/>
+    <path d="M1059 185 V193" stroke-width="3"/>
+    <path d="M941 164 H917 V217 H884 M1176 164 H1204 V111 H1240" opacity=".45"/>
+    <circle cx="884" cy="217" r="4" fill="#0b1424"/><circle cx="1240" cy="111" r="4" fill="#0b1424"/>
+  </g>
+</svg>
